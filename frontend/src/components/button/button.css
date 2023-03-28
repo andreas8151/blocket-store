@@ -1,0 +1,21 @@
+.button {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2d6f23cf;
+  margin: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #285d1fde;
+}
+
+.registerButton {
+  background-color: rgba(0, 0, 0, 0.264);
+}
