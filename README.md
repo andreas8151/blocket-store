@@ -5,43 +5,54 @@ Blocket-store is a web application that allows users to upload and manage conten
 
 Requirements:
 
-Node.js
-NPM
-SQL Database
+* Node.js
+* NPM
+* SQL Database
+
+
 Installation:
 
-Clone the repository to your local machine
-Navigate to the backend directory of the project in the command line
-Run npm install to install all the required dependencies
-Navigate to the frontend directory in the command line
-Run npm install again to install the frontend dependencies
-Return to the backend/src and create a new file called .env
-Copy the contents of .env.example into the new .env file and replace the values with your own configurations (i.e., database credentials, JWT secret, etc.)
-.env file contains:
+* Clone the repository to your local machine
+* Navigate to the backend directory of the project in the command line
+* Run npm install to install all the required dependencies
+* Navigate to the frontend directory in the command line
+* Run npm install again to install the frontend dependencies
+* Return to the backend/src and create a new file called .env
+* Copy the contents of .env.example into the new .env file and replace the values with your own configurations (i.e., database credentials, JWT secret, etc.)
+
+* .env file contains:
 makefile
 Copy code
 host = "localhost" 
 user= "" 
 password= "" 
 database= ""
-
 secret = ""
-Navigate to backend/src and run nodemon server.js
-Navigate to frontend and run npm run start
+
+* Navigate to backend/src and run nodemon server.js
+* Navigate to frontend and run npm run start
+
+
 Features:
 
 Authentication:
 
-Login and registration pages with secure token and cookie-based authentication
-Passwords are encrypted using bcrypt.js
-Stored in SQL database
-Upload Content/Images:
+* Login and registration pages with secure token and cookie-based authentication
+* Passwords are encrypted using bcrypt.js
+* Stored in SQL database
 
-Users can upload images and content to the buy and sell site
-Uploaded content and images are stored in the SQL database
-Users can edit and delete their uploaded content and images
-Future plans:
+Content:
 
-Search Functionality: I'd like to add a search bar so users can easily search for specific items on the buy and sell site.
-Product Categories: I think it would be helpful to allow users to categorize their uploaded content and images by product type. This could involve creating categories and tags for products, and allowing users to filter search results by category.
-Payment Integration: It would be beneficial to integrate a payment system into the site to allow users to buy and sell items securely.
+* Users can upload images and content to the buy and sell site
+* Uploaded content and images are stored in the SQL database
+
+Future Plan:
+
+* Users can edit and delete their uploaded content and images
+* User will be able to see outhers content
+
+Search Functionality: 
+
+* I'd like to add a search bar so users can easily search for specific items on the buy and sell site.
+* Product Categories: I think it would be helpful to allow users to categorize their uploaded content and images by product type. This could involve creating categories and tags for products, and allowing users to filter search results by category.
+
