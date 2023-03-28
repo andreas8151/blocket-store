@@ -1,0 +1,127 @@
+.homeContainer {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(221, 77, 77, 0.721) 10%,
+    rgba(89, 110, 230, 0.662) 90%
+  );
+}
+
+.todoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1vh;
+  gap: 2vh;
+  margin: 4vh;
+  height: 100%;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(250, 235, 215, 0.334);
+  border-radius: 10px;
+  padding: 1vh;
+  width: 20vh;
+  height: 36vh;
+}
+
+.todoDone {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(9, 2, 5, 0.267);
+  height: 100%;
+  border-radius: 10px;
+  padding: 1vh;
+  width: 20vh;
+}
+
+.todoDone h4 {
+  text-decoration: line-through;
+}
+
+.todoDone small {
+  text-decoration: line-through;
+}
+
+.todoDone button {
+  display: none;
+}
+
+.todoDone input {
+  display: none;
+}
+
+.todoDone .todoDoneButton {
+  display: block;
+  background-color: rgba(255, 145, 145, 0.615);
+  transition: 0.4s;
+}
+
+.todoDone .todoDoneButton:hover {
+  background-color: rgba(108, 239, 72, 0.334);
+}
+.todo small {
+  font-size: 0.9em;
+  color: #693434;
+}
+
+.deleteButton {
+  background-color: rgba(213, 70, 70, 0.574);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 0.2vh;
+  width: 2.5vh;
+}
+
+h4 {
+  margin: 1.5vh 0 0;
+  color: #3d1f1f;
+}
+
+button {
+  background-color: rgba(129, 66, 108, 0.407);
+  border-radius: 10px;
+  padding: 1vh;
+  width: 20vh;
+  margin: 2vh 0 0;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgba(129, 66, 108, 0.607);
+  color: rgba(255, 255, 255, 0.628);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #693434;
+  background-color: rgba(255, 255, 255, 0.334);
+  border-radius: 10px;
+  padding: 1vh;
+  margin: 1vh;
+  transition: 0.3s;
+}
+
+input:hover {
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
+input:focus {
+  background-color: rgba(255, 255, 255, 0.89);
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .homeContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
