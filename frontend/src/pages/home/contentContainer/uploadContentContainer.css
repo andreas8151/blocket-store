@@ -1,0 +1,22 @@
+.contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #0304062a;
+  padding: 4vh;
+  margin: 8vh;
+  border-radius: 8px;
+  gap: 10vh;
+}
+
+.contentContainer h2 {
+  color: #ffffffd2;
+  background-color: rgba(240, 248, 255, 0.214);
+  width: 400px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2rem;
+}
