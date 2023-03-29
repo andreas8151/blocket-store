@@ -1,6 +1,6 @@
 import "./home.css";
 import AddFriendContainer from "./friends/FriendContainer";
-import UploadContentContainer from "./UploadContentContainer/UploadContentContainer";
+import UploadContentContainer from "./contentContainer/UploadContentContainer";
 
 function Home() {
   return (
