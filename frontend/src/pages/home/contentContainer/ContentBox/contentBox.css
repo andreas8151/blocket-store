@@ -1,0 +1,21 @@
+.contentBox {
+  background-color: #eeeeee34;
+  border-radius: 4px;
+  box-shadow: rgba(20, 19, 19, 0.283) 0px 0px 10px 1px;
+}
+.contentBox img {
+  height: 130px;
+  margin: 10px;
+}
+
+.contentInfoBox {
+  background-color: rgba(250, 235, 215, 0.658);
+  margin: 0 4vh 0 4vh;
+  border-radius: 8px;
+}
+
+.contentInfoBox p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.6vh;
+}
