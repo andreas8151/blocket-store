@@ -1,0 +1,92 @@
+#uploadContainer {
+  background: url("../../../../assets/wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#uploadContainer button {
+  background-color: #2b8d30;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2vh;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#uploadContainer button:hover {
+  background-color: #217b26;
+  transform: scale(1.05);
+}
+
+#uploadContainer button:active {
+  transform: scale(0.95);
+}
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#uploadContainer textarea {
+  background-color: #fffffff7;
+  border: none;
+  width: 48vh;
+  height: 10vh;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1vh;
+  resize: none;
+  border: none;
+}
+
+#uploadContainer textarea:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+#uploadContainer textarea:focus {
+  outline: none;
+}
+
+#uploadContainer .file-input label {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(40deg, #a062c4, #f8776c);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+
+#uploadContainer .file-input label:hover {
+  transform: scale(1.05);
+}
+
+#uploadContainer .file-input label:active {
+  transform: scale(0.95);
+}
+
+#uploadContainer .file-input input {
+  position: absolute;
+  width: 200px;
+  opacity: 0;
+  cursor: pointer;
+}
