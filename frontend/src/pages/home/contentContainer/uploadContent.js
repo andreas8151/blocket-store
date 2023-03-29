@@ -1,8 +1,8 @@
-export async function uploadContent(selectedFile) {
+export async function uploadContent(selectedFile, descriptionText) {
   try {
     const formData = new FormData();
     formData.append("image", selectedFile);
-    formData.append("description", "test");
+    formData.append("description", descriptionText);
 
     const data = fetch("http://localhost:5050/content/upload", {
       method: "POST",
