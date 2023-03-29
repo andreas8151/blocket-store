@@ -1,7 +1,8 @@
 .friendsContainer {
-  margin-left: auto;
   padding: 2vh 1vh;
   background-color: rgba(0, 0, 0, 0.114);
+
+
 }
 
 .friendsContainer h4 {
@@ -9,9 +10,6 @@
 }
 
 .addFriendContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .addFriendContainer button {
@@ -45,24 +43,6 @@
   background-color: hsla(262, 66%, 57%, 0.811);
   box-shadow: 0 0 0.5rem 0.2rem hsla(0, 0%, 100%, 0.091);
   transform: scale(0.9);
-}
-.friendTodo {
-  background-color: rgba(90, 187, 68, 0.329);
-
-  border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
-  color: aliceblue;
-}
-
-.friendTodoDone {
-  background-color: rgba(233, 126, 100, 0.321);
-
-  border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
-  color: aliceblue;
-  text-decoration: line-through;
 }
 
 @media screen and (max-width: 600px) {

@@ -6,7 +6,6 @@ function AddFriendContainer() {
   const [friend, setFriend] = useState("");
   const [resText, setResText] = useState("");
   const [friends, setFriends] = useState([]);
-  const [friendTodoList, setFriendTodoList] = useState([]);
 
   const username = localStorage.getItem("username");
 
@@ -39,15 +38,8 @@ function AddFriendContainer() {
         <button onClick={submitHandler}>Add Friend</button>
         <p>{resText}</p>
       </div>
-      {friendTodoList.map((todo, index) => {
-        return (
-          <p
-            className={todo.completed == "1" ? "friendTodoDone" : "friendTodo"}
-            key={index}
-          >
-            {todo.title}
-          </p>
-        );
+      {friends.map((friend, index) => {
+        return <p key={index}>{friend.username}</p>;
       })}
     </div>
   );
