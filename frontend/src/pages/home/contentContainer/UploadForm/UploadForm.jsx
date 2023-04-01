@@ -4,6 +4,9 @@ import "./uploadForm.css";
 function UploadForm({ handleFileSelect, handleSubmit, handleDescriptionText }) {
   return (
     <div id="uploadContainer">
+      {" "}
+      <h2>Upload here</h2>
+      <div> </div>
       <textarea
         placeholder="description"
         type="text"
