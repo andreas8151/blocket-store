@@ -2,21 +2,31 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #0304062a;
-  padding: 4vh;
-  margin: 8vh;
-  border-radius: 8px;
-  gap: 10vh;
+  align-items: center;
+  gap: 3vh;
 }
 
-.contentContainer h2 {
+h2 {
   color: #ffffffd2;
-  background-color: rgba(240, 248, 255, 0.214);
+  background-color: rgba(255, 228, 52, 0.377);
   width: 400px;
-  text-align: center;
   padding: 1rem;
   border-radius: 8px;
+  margin: 0 0 1rem 0;
   font-size: 2rem;
   font-weight: 600;
-  margin: 2rem;
+}
+
+.myContent {
+  display: flex;
+  flex-wrap: wrap;
+border: 1px solid #ffffffd2;
+  width: 400px;
+  padding: 2vh;
+}
+
+#mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
