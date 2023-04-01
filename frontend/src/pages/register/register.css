@@ -1,8 +1,8 @@
 .registerContainer {
   background: linear-gradient(
     150deg,
-    rgba(146, 42, 202, 0.264) 50%,
-    rgba(221, 77, 77, 0.176) 50%
+    rgba(205, 117, 55, 0.689) 70%,
+    rgba(147, 177, 246, 0.59) 70%
   );
   height: 100vh;
 }
