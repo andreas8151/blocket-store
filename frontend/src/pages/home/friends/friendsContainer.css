@@ -1,8 +1,5 @@
 .friendsContainer {
-  padding: 2vh 1vh;
-  background-color: rgba(0, 0, 0, 0.114);
-
-
+  background-color: rgb(254, 123, 82);
 }
 
 .friendsContainer h4 {
@@ -43,6 +40,13 @@
   background-color: hsla(262, 66%, 57%, 0.811);
   box-shadow: 0 0 0.5rem 0.2rem hsla(0, 0%, 100%, 0.091);
   transform: scale(0.9);
+}
+
+#wallpaperWave {
+  background: url("../../../assets/wave-haikei.png");
+  background-size: cover;
+  background-position: center;
+  height: 13vh;
 }
 
 @media screen and (max-width: 600px) {
