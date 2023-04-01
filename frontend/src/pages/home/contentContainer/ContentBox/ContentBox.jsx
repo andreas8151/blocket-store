@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { AiOutlineFileSearch } from "react-icons/ai";
 import "./contentBox.css";
 
 function ContentBox({ userContent, index }) {
@@ -8,6 +10,9 @@ function ContentBox({ userContent, index }) {
       <div className="contentInfoBox">
         <p>{userContent.description}</p>
       </div>
+      <Link className="GoTo" to={`/content/${userContent._id}`}>
+        <AiOutlineFileSearch className="icon" />
+      </Link>
     </div>
   );
 }

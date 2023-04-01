@@ -1,21 +1,44 @@
 .contentBox {
-  background-color: #eeeeee34;
-  border-radius: 4px;
-  box-shadow: rgba(20, 19, 19, 0.283) 0px 0px 10px 1px;
+  background-color: #0f02023f;
+  width: 400px;
+  border-radius: 8px;
+  display: flex;
 }
 .contentBox img {
-  height: 130px;
-  margin: 10px;
+  border-radius: 10px 0 0 10px;
+  height: 90px;
 }
 
 .contentInfoBox {
   background-color: rgba(250, 235, 215, 0.658);
-  margin: 0 4vh 0 4vh;
-  border-radius: 8px;
+  width: 100%;
 }
 
 .contentInfoBox p {
   font-size: 1.1rem;
   font-weight: 500;
-  padding: 0.6vh;
+  padding: 1vh;
+  min-width: 100px;
+}
+
+.contentBox .GoTo {
+  background-color: #20972492;
+  color: rgba(255, 255, 255, 0.808);
+  border-radius: 0 10px 10px 0;
+  width: 20vh;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contentBox .GoTo:hover {
+  background-color: #1d6426c3;
+}
+
+.contentBox .GoTo:active {
+  transform: scale(0.9);
+}
+
+.contentBox .GoTo .icon {
+  font-size: 1.9rem;
+  margin-top: 1.5rem;
 }
